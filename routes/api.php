@@ -27,3 +27,13 @@ Route::group(['prefix' => 'v3','namespace' => 'API'], function(){
     Route::apiResource('operatorstats', 'operatorstats');
 });
 
+
+Route::group(['prefix' => 'v4','namespace' => 'API'], function(){
+    Route::apiResource('aliasdump', 'AliasDumpController');
+});
+
+
+Route::group(['prefix' => 'v5','namespace' => 'API'], function(){
+    Route::apiResource('operators', 'OperatorController');
+});
+
