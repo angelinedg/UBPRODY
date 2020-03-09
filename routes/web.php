@@ -61,6 +61,8 @@ Route::get('/Teams/TeamPerformance', 'Teams\TeamsController@index')->name('Teamh
 
 //Users
 Route::get('/Users/Users', 'Users\UsersController@index')->name('Uhome');
+Route::get('/Users/Operators', 'Users\OperatorController@index')->name('Ophome');
+
 
 
 
