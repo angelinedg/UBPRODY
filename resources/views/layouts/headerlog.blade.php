@@ -260,6 +260,12 @@
                 </a>
             </div>
 
+            <div id='submenu12' class="collapse sidebar-submenu">
+                <a href="{{route('Ophome')}}" class="list-group-item list-group-item-action bg-dark text-white">
+                    <span class="menu-collapsed">Operators</span>
+                </a>
+            </div>
+
             <a href="#top" data-toggle="sidebar-colapse" class="bg-dark list-group-item list-group-item-action d-flex align-items-center">
                 <div class="d-flex w-100 justify-content-start align-items-center">
                     <span id="collapse-icon" class="fa fa-2x mr-3"></span>
